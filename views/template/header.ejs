@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS - <%= tituloWeb %>
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="header sticky">
+        <a>Black Lives Matter.</a>
+        <a href="">Support the Equal Justice Initiative. </a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navsticky">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand mx-4 nav-title" href="#">Express</a>
+                <ul class="navbar-nav px-md-5">
+                    <form class="d-flex">
+                        <div class="search">
+                            <i class='bx bx-search-alt se'></i>
+                            <input class="form-control" id="search" placeholder="Search" aria-label="Search">
+                        </div>
+                    </form>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/starter" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cómo empezar
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/starter">Instalatición</a>
+                            <a class="dropdown-item" href="/starter">Hello World</a>
+                            <a class="dropdown-item" href="/starter">Generador de Express</a>
+                            <a class="dropdown-item" href="/starter">Diccionamiento básico</a>
+                            <a class="dropdown-item" href="/starter">Archivos estáticos</a>
+                            <a class="dropdown-item" href="/starter">Preguntas más frecuentes</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Guía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Referencia de API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Temas avanzados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Recursos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
