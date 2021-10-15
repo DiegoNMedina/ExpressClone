@@ -13,4 +13,6 @@ This is a clone of the Express JS official documentation page.
 ## Usage
 ```
 npm install
+
+npm run dev
 ```
